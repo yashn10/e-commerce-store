@@ -1,9 +1,9 @@
-import { useRouter } from 'next/router'
-import { useState } from 'react'
+// import { useRouter } from 'next/router'
+// import { useState } from 'react'
 import Link from 'next/link'
 
 const post = (addToCart) => {
-  const router = useRouter()
+  // const router = useRouter()
   const { slug } = router.query
 
   const [pin, setPin] = useState()
