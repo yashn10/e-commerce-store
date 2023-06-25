@@ -1,0 +1,13 @@
+.heading {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.hr {
+    width: 12%;
+    margin: auto;
+    margin-top: 1%;
+    border: 1px solid #0000bf;
+}
