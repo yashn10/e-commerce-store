@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const post = (addToCart) => {
   // const router = useRouter()
-  const { slug } = router.query
+  // const { slug } = router.query
 
-  const [pin, setPin] = useState()
-  const [service, setService] = useState()
+  // const [pin, setPin] = useState()
+  // const [service, setService] = useState()
 
   const checkService = async () => {
     let pins = await fetch("http://localhost:3000/api/pincode")
