@@ -1,14 +1,6 @@
 import React from 'react'
 
 const about = () => {
-<<<<<<< HEAD
-  return (
-    <div>about</div>
-  )
-}
-
-export default about
-=======
 
   return (
 
@@ -50,4 +42,3 @@ export default about
 }
 
 export default about
->>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9

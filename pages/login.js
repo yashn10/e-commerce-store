@@ -1,14 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-
-const login = () => {
-  return (
-    <div>login</div>
-  )
-}
-
-export default login
-=======
 import styles from './styles/heading.module.css'
 
 const login = () => {
@@ -40,4 +30,3 @@ const login = () => {
 }
 
 export default login
->>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
