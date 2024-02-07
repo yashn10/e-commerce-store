@@ -3,6 +3,7 @@ import React, { useRef } from 'react'
 import { AiFillCloseCircle, AiFillMinusCircle, AiFillPlusCircle } from 'react-icons/ai'
 import { BsFillBagCheckFill } from 'react-icons/bs'
 
+<<<<<<< HEAD
 const header = (cart, addToCart, removeFromCart, clearCart, subTotal) => {
 
     const togglecart = () => {
@@ -16,6 +17,9 @@ const header = (cart, addToCart, removeFromCart, clearCart, subTotal) => {
         }
     }
     const ref = useRef()
+=======
+const header = () => {
+>>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
 
     return (
 
@@ -38,6 +42,7 @@ const header = (cart, addToCart, removeFromCart, clearCart, subTotal) => {
                     <Link href={"/login"} class="mr-5 hover:text-gray-900">Login</Link>
                     <Link href={"/signup"} class="mr-5 hover:text-gray-900">Signup</Link>
                 </nav>
+<<<<<<< HEAD
                 <button onClick={togglecart} class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Cart
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -65,6 +70,8 @@ const header = (cart, addToCart, removeFromCart, clearCart, subTotal) => {
                         <button onClick={clearCart} className="text-white bg-indigo-600 flex items-center border-0 my-5 py-2 focus:outline-none hover:bg-indigo-700 rounded text-medium px-2 justify-center"><BsFillBagCheckFill className='' />Clear Cart</button>
                     </div>
                 </div>
+=======
+>>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
 
             </div>
         </header>

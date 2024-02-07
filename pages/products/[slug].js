@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import Link from 'next/link'
@@ -8,6 +9,18 @@ const post = (addToCart) => {
 
   const [pin, setPin] = useState()
   const [service, setService] = useState()
+=======
+// import { useRouter } from 'next/router'
+// import { useState } from 'react'
+import Link from 'next/link'
+
+const post = (addToCart) => {
+  // const router = useRouter()
+  // const { slug } = router.query
+
+  // const [pin, setPin] = useState()
+  // const [service, setService] = useState()
+>>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
 
   const checkService = async () => {
     let pins = await fetch("http://localhost:3000/api/pincode")
@@ -110,12 +123,20 @@ const post = (addToCart) => {
               <input onChange={onChangePin} className='border-blue-500 border-2 rounded-md mr-2 py-1 mt-2 text-center' placeholder='enter your pincode' type='text' />
               <button onClick={checkService} className="ml-auto text-white bg-indigo-500 border-0 py-2 mt-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Check</button>
             </div>
+<<<<<<< HEAD
             {!service && service != null && <div className='text-red-500 font-normal text-lg'>
+=======
+            {/* {!service && service != null && <div className='text-red-500 font-normal text-lg'>
+>>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
               Sorry!, we are currently not available in this area
             </div>}
             {service && service != null && <div className='text-green-500 text-lg'>
               yay!, we are available in this area, place your order now
+<<<<<<< HEAD
             </div>}
+=======
+            </div>} */}
+>>>>>>> 57242bf8f5305edff85d1968cdefe832f28cfab9
 
           </div>
         </div>
